@@ -12,7 +12,7 @@ export const styles = StyleSheet.create({
 
     header: {
       width: '100%',
-      flex:1,
+      flex: 1,
       justifyContent: 'center',
       alignItems: 'center',
     },
@@ -31,12 +31,20 @@ export const styles = StyleSheet.create({
 
     ticket:{
       width: '100%',
-      height: '60%',
+      height: 600,
       backgroundColor: colors.white,
-      borderTopLeftRadius: 24,
-      borderTopRightRadius: 24,
-      marginTop: -24,
-      padding: 24,
+      borderRadius: 24,
+      overflow: 'hidden',
+      paddingBottom: 24,
+    },
+    content:{
+
+    },
+
+    flight:{
+      width: '100%',
+      height: 200,
+      backgroundColor: colors.gray[300],
     }
    
   });

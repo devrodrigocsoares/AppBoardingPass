@@ -14,6 +14,11 @@ export function Home() {
         
      </ImageBackground>
      <View style={styles.ticket}>
+        <View style={styles.content}>
+          <View style={styles.flight}>
+          </View>
+
+        </View>
 
      </View>
     </View>
