@@ -2,6 +2,7 @@ import { StyleSheet, Text } from 'react-native';
 
 import { colors } from '@/styles/colors';
 import { fontFamily } from '@/styles/fontFamily';
+import { Flight } from '@/components/flight';
 
 export const styles = StyleSheet.create({
     container: {
@@ -38,13 +39,14 @@ export const styles = StyleSheet.create({
       paddingBottom: 24,
     },
     content:{
+      padding: 20,
 
     },
 
     flight:{
       width: '100%',
-      height: 200,
-      backgroundColor: colors.gray[300],
+      flexDirection: 'row',
+      justifyContent: 'space-between',
     }
    
   });

@@ -1,6 +1,8 @@
 import { ImageBackground, Text, View } from 'react-native';
 
-import { styles } from './styles';
+import {styles} from './styles';
+
+import { Flight } from '@/components/flight';
 
 export function Home() {
   return (
@@ -16,6 +18,8 @@ export function Home() {
      <View style={styles.ticket}>
         <View style={styles.content}>
           <View style={styles.flight}>
+            <Flight label="São Paulo" value="GRU"/>
+            <Flight label="Paris" value="PY"/>
           </View>
 
         </View>
