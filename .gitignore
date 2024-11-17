@@ -32,3 +32,18 @@ Thumbs.db   # Windows
 # Arquivos de log gerados pela aplicação
 *.log
 
+# Arquivos de build e de cache do Expo
+.expo/
+.expo-shared/
+
+# Arquivos de configuração do Expo
+app.json
+app.config.js
+
+# Arquivos do pacote lock (opcional, mas recomendado em projetos que não utilizam Yarn)
+package-lock.json
+
+# Arquivos de compilação gerados (geralmente não necessários no Git)
+dist/
+build/
+
