@@ -1,5 +1,7 @@
 import { Home } from "@/app/home";
 
+import { StatusBar } from "expo-status-bar";
+
 import{
   useFonts,
   Poppins_700Bold,
@@ -25,7 +27,12 @@ export default function App() {
   }
 
   return (
-    <Home />
+    <>
+      <StatusBar style="light" backgroundColor="transparent" translucent/>
+      <Home />
+      
+    </>
+    
   );
 }
 

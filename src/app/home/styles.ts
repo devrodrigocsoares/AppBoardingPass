@@ -32,7 +32,6 @@ export const styles = StyleSheet.create({
 
     ticket:{
       width: '100%',
-      height: 600,
       backgroundColor: colors.white,
       borderRadius: 24,
       overflow: 'hidden',
@@ -59,7 +58,41 @@ export const styles = StyleSheet.create({
       color: colors.gray[800],
       fontSize: 14,
       fontFamily: fontFamily.regular,
-
     },
+
+    label:{
+      color: colors.gray[400],
+      fontSize: 12,
+      textTransform: 'uppercase',
+      fontFamily: fontFamily.regular,
+    },
+
+    name:{
+      color: colors.black,
+      fontSize: 24,
+      fontFamily: fontFamily.bold,
+    },
+
+    details:{
+      marginTop: 52,
+    },
+
+    inline:{
+      width: '100%',
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+    },
+    
+    footer:{
+      width: '100%',
+      padding: 20,
+      flexDirection: 'row',
+      gap: 24,
+      
+    },
+    footerContent:{
+      flex: 1,
+      gap: 24,
+    }
    
   });
