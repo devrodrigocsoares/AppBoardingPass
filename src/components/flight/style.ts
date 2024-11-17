@@ -15,5 +15,6 @@ export const styles = StyleSheet.create({
         color:colors.black,
         fontSize: 42,
         fontFamily: fontFamily.bold,
+        marginTop: -10,
     }
 });
